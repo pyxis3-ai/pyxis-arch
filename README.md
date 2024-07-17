@@ -34,6 +34,32 @@ Each lock-in is independent. Each has a different cost to break. None of the exi
        AWS         GCP          On-prem    Azure       Wherever
 ```
 
+```mermaid
+flowchart TD
+    A[Pyxis Control Plane]:::ctrl
+    A -.declarative.-> B
+    A -.declarative.-> C
+    A -.declarative.-> D
+    A -.declarative.-> E
+    A -.declarative.-> F
+
+    subgraph fleet [Heterogeneous serving fleet]
+        B[vLLM · A100<br/>AWS]
+        C[TGI · H100<br/>GCP]
+        D[Triton · MI300X<br/>on-prem]
+        E[SGLang · TPU<br/>Azure]
+        F[Custom runtime]
+    end
+
+    A --- T[Tenancy / quota]
+    A --- R[Routing policy]
+    A --- AU[Audit / lineage]
+
+    classDef ctrl fill:#3b82f6,stroke:#1e3a8a,color:#fff,stroke-width:2px
+```
+
+
+
 ## Surfaces
 
 - **Control plane** — Kubernetes-native; operator + CRDs for model serving, batch inference, evaluation jobs
