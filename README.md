@@ -1,6 +1,6 @@
 # Pyxis — architecture & design
 
-Public notes on the architecture of [Pyxis](https://pyxis3.com), a vendor-neutral AI operations platform. This is the **why** repo — design decisions, the vendor-neutrality argument, and the operating model.
+Public notes on the architecture of [Pyxis](https://pyxis3.com), a model-agnostic LLM serving infrastructure. This is the **why** repo — design decisions, the model-agnosticity argument, and the operating model.
 
 ## The thesis
 
@@ -82,7 +82,7 @@ Most "AI platforms" assume homogeneous fleets — one cloud, one GPU class, one 
 
 Pyxis is the control plane, not the runtime. We integrate with the runtimes that already exist — we don't compete with vLLM. The vLLM author's team is doing inference better than we ever will; our job is to make their work fit into a tenanted, observable, audited operations envelope.
 
-### Why vendor-neutral matters
+### Why model-agnostic matters
 
 If Pyxis added a managed inference offering, every cloud + every model vendor would push back on integration. By staying neutral, Pyxis becomes the layer everyone integrates with rather than the layer everyone competes against.
 
@@ -99,4 +99,3 @@ If Pyxis added a managed inference offering, every cloud + every model vendor wo
 
 ---
 
-*Pyxis LLC, registered in New Mexico, USA. UK trade entity in formation.*
