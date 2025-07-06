@@ -93,7 +93,7 @@ If Pyxis added a managed inference offering, every cloud + every model vendor wo
 
 ## Founder
 
-**[Omar A.](https://github.com/oabdrabo)** — ex-Seldon Senior Solutions Engineer (vLLM, LLM inference); ex-AWS Industry Specialist for AI/ML & semiconductors (Inferentia, Trainium, SageMaker, Bedrock); ex-Dell EMC; ex-IBM. 2× AWS Knowledge Center author with companion AWS YouTube video referenced as *"[Watch Omar's video to learn more](https://www.youtube.com/watch?v=vfIdLuhKTs8)"* since May 2020.
+**[Omar Abdrabo](https://github.com/oabdrabo)** — ex-Seldon Senior Solutions Engineer (vLLM, LLM inference); ex-AWS Industry Specialist for AI/ML & semiconductors (Inferentia, Trainium, SageMaker, Bedrock); ex-Dell EMC; ex-IBM. 2× AWS Knowledge Center author with companion AWS YouTube video referenced as *"[Watch Omar's video to learn more](https://www.youtube.com/watch?v=vfIdLuhKTs8)"* since May 2020.
 
 [github.com/oabdrabo](https://github.com/oabdrabo) · [pyxis3.ai](https://pyxis3.ai)
 
