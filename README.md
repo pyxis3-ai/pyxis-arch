@@ -91,7 +91,7 @@ If Pyxis added a managed inference offering, every cloud and every model vendor 
 
 ## Founder
 
-**[Omar Abdrabo](https://github.com/oabdrabo)**, Senior Solutions Engineer at Seldon Technologies (vLLM and LLM inference). Previously Industry Specialist Solutions Architect at AWS UK for Semiconductors & Manufacturing (AI/ML workloads on Inferentia, Trainium, SageMaker, and Bedrock), then Dell EMC and IBM. Author of the canonical AWS Knowledge Center guide on decoupling Amazon RDS from Elastic Beanstalk, with the companion video on AWS's [official YouTube channel](https://www.youtube.com/watch?v=vfIdLuhKTs8) referenced as *"Watch Omar's video to learn more"* since May 2020.
+**[Omar Abdrabo](https://github.com/oabdrabo)**, Senior Solutions Engineer at Seldon Technologies (vLLM and LLM inference). Previously Industry Specialist Solutions Architect at AWS UK for Semiconductors & Manufacturing (AI/ML workloads on Inferentia, Trainium, SageMaker, and Bedrock), then Dell EMC and IBM. Author of the AWS Knowledge Center reference guide on decoupling Amazon RDS from Elastic Beanstalk, with the companion video on AWS's [official YouTube channel](https://www.youtube.com/watch?v=vfIdLuhKTs8) referenced as *"Watch Omar's video to learn more"* since May 2020.
 
 [github.com/oabdrabo](https://github.com/oabdrabo)
 [pyxis3.ai](https://pyxis3.ai)
