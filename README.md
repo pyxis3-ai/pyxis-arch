@@ -95,3 +95,7 @@ If Pyxis added a managed inference offering, every cloud and every model vendor 
 
 [github.com/oabdrabo](https://github.com/oabdrabo)
 [pyxis3.ai](https://pyxis3.ai)
+
+## Maintenance
+
+Supporting documentation lives in `docs/`, example inputs live in `examples/`, and lightweight validation notes live in `tests/smoke/`.
